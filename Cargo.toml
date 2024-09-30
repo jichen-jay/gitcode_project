@@ -1,0 +1,29 @@
+[package]
+name = "gitcode_project"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib", "lib"]
+
+[workspace]
+members = [ "gitcode_pr_review",
+    "tester_hook",
+]
+
+[patch.crates-io]
+tokio = { git = "https://github.com/second-state/wasi_tokio.git", branch = "v1.36.x" }
+socket2 = { git = "https://github.com/second-state/socket2.git", branch = "v0.5.x" }
+hyper = { git = "https://github.com/second-state/wasi_hyper.git", branch = "v0.14.x" }
+reqwest = { git = "https://github.com/second-state/wasi_reqwest.git", branch = "0.11.x" }
+
+[dependencies]
+reqwest = { version = "0.11", default-features = false, features = ["rustls-tls", "json"] }
+tokio = { version = "1", features = ["rt", "macros", "time"] }
+anyhow = "1"
+log = "0.4.22"
+dotenv = "0.15.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

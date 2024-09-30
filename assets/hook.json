@@ -1,0 +1,248 @@
+{
+    "changes": {
+        "author_id": {
+            "current": 1355674,
+            "previous": null
+        },
+        "close_issue_when_merge": {
+            "current": false,
+            "previous": null
+        },
+        "created_at": {
+            "current": "2024-09-26T04: 15: 13+08: 00",
+            "previous": null
+        },
+        "current_patchset_id": {
+            "current": 0,
+            "previous": null
+        },
+        "description": {
+            "current": "update: Update file README.md ",
+            "previous": null
+        },
+        "id": {
+            "current": 170777,
+            "previous": null
+        },
+        "iid": {
+            "current": 1,
+            "previous": null
+        },
+        "latest_merge_request_diff_id": {
+            "current": 178520,
+            "previous": null
+        },
+        "merge_params": {
+            "current": "force_remove_source_branch: false\n",
+            "previous": null
+        },
+        "merge_status": {
+            "current": "unchecked",
+            "previous": null
+        },
+        "merge_when_pipeline_succeeds": {
+            "current": false,
+            "previous": null
+        },
+        "moderation_result": {
+            "current": true,
+            "previous": null
+        },
+        "moderation_time": {
+            "current": 1727295333046,
+            "previous": null
+        },
+        "patchset_locked": {
+            "current": false,
+            "previous": null
+        },
+        "source_branch": {
+            "current": "explore-gc-patch-1",
+            "previous": null
+        },
+        "source_project_id": {
+            "current": 4123176,
+            "previous": null
+        },
+        "squash": {
+            "current": false,
+            "previous": null
+        },
+        "state": {
+            "current": "closed",
+            "previous": null
+        },
+        "target_branch": {
+            "current": "main",
+            "previous": null
+        },
+        "target_project_id": {
+            "current": 4123176,
+            "previous": null
+        },
+        "title": {
+            "current": "should be discoverable",
+            "previous": null
+        },
+        "updated_at": {
+            "current": "2024-09-28T03: 36: 35+08: 00",
+            "previous": null
+        },
+        "updated_by_id": {
+            "current": 1355674,
+            "previous": null
+        }
+    },
+    "event_type": "merge_request",
+    "extend_attributes": null,
+    "git_branch": "",
+    "git_commit_no": "",
+    "git_target_branch_commit_no": "c9dda0efeff461a1c0846f847943faac2def9a1a",
+    "issues": [],
+    "labels": [],
+    "manual_build": false,
+    "object_attributes": {
+        "action": "close",
+        "assignee_id": null,
+        "assignee_list": [],
+        "author": {
+            "avatar_url": "https: //cdn-img.gitcode.com/da/bd/d4ab4d5d24a2859c776b9bbfb05f8e5b623097fbe591afcbdeb859abf08c349d.jpg",
+            "email": "jaykchen@icloud.com",
+            "id": 1355674,
+            "name": "jaykchen",
+            "username": "jaykchen"
+        },
+        "author_id": 1355674,
+        "conflict": false,
+        "created_at": "2024-09-26T04:15:13+08:00",
+        "description": "update: Update file README.md ",
+        "head_pipeline_id": null,
+        "human_time_estimate": null,
+        "human_total_time_spent": null,
+        "id": 170777,
+        "iid": 1,
+        "last_commit": {
+            "author": {
+                "email": "jaykchen@icloud.com",
+                "name": "jaykchen"
+            },
+            "id": "20fb78426a9d9909c2bdedcc72dd50a48c9ad1c3",
+            "message": "update: Update file README.md \n patch",
+            "timestamp": "2024-09-25T20:14:37Z",
+            "url": "https://gitcode.com/jaykchen/explore-gc/commits/detail/20fb78426a9d9909c2bdedcc72dd50a48c9ad1c3"
+        },
+        "last_edited_at": null,
+        "last_edited_by_id": null,
+        "merge_commit_sha": null,
+        "merge_error": null,
+        "merge_params": {
+            "force_remove_source_branch": false
+        },
+        "merge_status": "unchecked",
+        "merge_user_id": null,
+        "merge_when_pipeline_succeeds": false,
+        "milestone_id": null,
+        "need_review": false,
+        "need_test": false,
+        "oldrev": "",
+        "omega_attributes": null,
+        "reviewer_list": [],
+        "source": {
+            "avatar_url": "https://cdn-img.gitcode.com/da/bd/d4ab4d5d24a2859c776b9bbfb05f8e5b623097fbe591afcbdeb859abf08c349d.jpg",
+            "ci_config_path": null,
+            "default_branch": "main",
+            "description": "",
+            "git_http_url": "https://gitcode.com/jaykchen/explore-gc.git",
+            "git_ssh_url": "git@gitcode.com:jaykchen/explore-gc.git",
+            "homepage": "https://gitcode.com/jaykchen/explore-gc",
+            "http_url": "https://gitcode.com/jaykchen/explore-gc.git",
+            "id": 4123176,
+            "name": "explore-gc",
+            "namespace": "jaykchen",
+            "path_with_namespace": "jaykchen/explore-gc",
+            "ssh_url": "git@gitcode.com:jaykchen/explore-gc.git",
+            "url": "git@gitcode.com:jaykchen/explore-gc.git",
+            "visibility_level": 20,
+            "web_url": "https://gitcode.com/jaykchen/explore-gc"
+        },
+        "source_branch": "explore-gc-patch-1",
+        "source_project_id": 4123176,
+        "state": "closed",
+        "target": {
+            "avatar_url": "https://cdn-img.gitcode.com/da/bd/d4ab4d5d24a2859c776b9bbfb05f8e5b623097fbe591afcbdeb859abf08c349d.jpg",
+            "ci_config_path": null,
+            "default_branch": "main",
+            "description": "",
+            "git_http_url": "https://gitcode.com/jaykchen/explore-gc.git",
+            "git_ssh_url": "git@gitcode.com:jaykchen/explore-gc.git",
+            "homepage": "https://gitcode.com/jaykchen/explore-gc",
+            "http_url": "https://gitcode.com/jaykchen/explore-gc.git",
+            "id": 4123176,
+            "name": "explore-gc",
+            "namespace": "jaykchen",
+            "path_with_namespace": "jaykchen/explore-gc",
+            "ssh_url": "git@gitcode.com:jaykchen/explore-gc.git",
+            "url": "git@gitcode.com:jaykchen/explore-gc.git",
+            "visibility_level": 20,
+            "web_url": "https://gitcode.com/jaykchen/explore-gc"
+        },
+        "target_branch": "main",
+        "target_branch_commit": {
+            "author": {
+                "email": "jaykchen@icloud.com",
+                "name": "jaykchen"
+            },
+            "id": "c9dda0efeff461a1c0846f847943faac2def9a1a",
+            "message": "change to become after.rs\n",
+            "timestamp": "2024-09-25T20:28:15Z",
+            "url": "https://gitcode.com/jaykchen/explore-gc/commits/detail/c9dda0efeff461a1c0846f847943faac2def9a1a"
+        },
+        "target_project_id": 4123176,
+        "time_estimate": null,
+        "title": "should be discoverable",
+        "total_time_spent": 0,
+        "update_reason": "",
+        "updated_at": "2024-09-28T03:36:35+08:00",
+        "updated_by_id": 1355674,
+        "url": "https://gitcode.com/jaykchen/explore-gc/merge_requests/1",
+        "work_in_progress": false
+    },
+    "object_kind": "merge_request",
+    "produce_random_id": "3abd2162388842e0a8d4548b0e5afebf",
+    "project": {
+        "avatar_url": "https://cdn-img.gitcode.com/da/bd/d4ab4d5d24a2859c776b9bbfb05f8e5b623097fbe591afcbdeb859abf08c349d.jpg",
+        "ci_config_path": null,
+        "default_branch": "main",
+        "description": "",
+        "git_http_url": "https://gitcode.com/jaykchen/explore-gc.git",
+        "git_ssh_url": "git@gitcode.com:jaykchen/explore-gc.git",
+        "homepage": "https://gitcode.com/jaykchen/explore-gc",
+        "http_url": "https://gitcode.com/jaykchen/explore-gc.git",
+        "id": 4123176,
+        "name": "explore-gc",
+        "namespace": "jaykchen",
+        "path_with_namespace": "jaykchen/explore-gc",
+        "ssh_url": "git@gitcode.com:jaykchen/explore-gc.git",
+        "url": "git@gitcode.com:jaykchen/explore-gc.git",
+        "visibility_level": 20,
+        "web_url": "https://gitcode.com/jaykchen/explore-gc"
+    },
+    "repository": {
+        "description": "",
+        "git_http_url": "https://gitcode.com/jaykchen/explore-gc.git",
+        "git_ssh_url": "git@gitcode.com:jaykchen/explore-gc.git",
+        "homepage": "https://gitcode.com/jaykchen/explore-gc",
+        "name": "explore-gc",
+        "url": "git@gitcode.com:jaykchen/explore-gc.git",
+        "visibility_level": 20
+    },
+    "user": {
+        "avatar_url": "https://cdn-img.gitcode.com/da/bd/d4ab4d5d24a2859c776b9bbfb05f8e5b623097fbe591afcbdeb859abf08c349d.jpg",
+        "email": "jaykchen@icloud.com",
+        "id": 1355674,
+        "name": "jaykchen",
+        "username": "jaykchen"
+    },
+    "uuid": "1_de191e58-0e9c-4a74-a94f-bec3c29dd3a8",
+    "virtual_merge_build": false
+}

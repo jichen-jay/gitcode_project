@@ -1,0 +1,9 @@
+/target
+Cargo.lock
+.env
+/gitcode_pr_review/target
+/gitcode_pr_review/Cargo.lock
+/gitcode_pr_review/.env
+/tester_hook/target
+/tester_hook/Cargo.lock
+/tester_hook/.env
