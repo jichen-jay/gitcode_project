@@ -16,6 +16,9 @@ To get this project up and running, follow these steps:
 
 ![Webhook Endpoint](assets/webhook_endpoint.png)
 
+Please note that the code to run is located in the `gitcode_pr_review` folder, put it in the `Directory` field in the table
+![Use Submodule for Deployment](assets/use_submodule_for_deployment.png)
+
 ### 2. Set Up Credentials
 
 - Configure the necessary credentials for the project.
