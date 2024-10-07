@@ -140,7 +140,7 @@ pub async fn fetch_and_review_files(path_with_namespace: &str, pull_number: &str
         .unwrap_or("16384".to_string())
         .parse::<u32>()
         .unwrap_or(0);
-    let llm_api_key = env::var("OPENAI_API_KEY").unwrap_or("LLAMAEDGE".to_string());
+    let llm_api_key = env::var("llm_api_key").unwrap_or("LLAMAEDGE".to_string());
 
     //  The soft character limit of the input context size
     //  This is measured in chars. We set it to be 2x llm_ctx_size, which is measured in tokens.
